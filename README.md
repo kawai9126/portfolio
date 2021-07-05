@@ -23,7 +23,7 @@ funとcastでcaryをし合うという意味で作りました。
 ファンの方、応援したい方は投稿機能によりその才能、グッズやチケットの背景を知った上で才能、グッズ、チケットの購入ができます。
 
 ### ワイヤーフレーム
-ここ
+https://drive.google.com/file/d/1VkDCSyJj3wg_QwN9-wgIllHGzPwa-Zdv/view?usp=sharing
 
 
 ## 設計書
