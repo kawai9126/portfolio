@@ -41,7 +41,7 @@ https://docs.google.com/spreadsheets/d/1L6eELIQt4U_PnEGQ4obXX1WqQZ_EsQyNABy3gQeG
 ## ルート設計
 ここに
 
-##  
+##  WBS
 https://docs.google.com/spreadsheets/d/19mmYmqDc1jBr5c99otqpbuft_HNvaDqaiBm4H3d2aCI/edit?usp=sharing
 
 ## 開発環境
