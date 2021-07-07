@@ -32,6 +32,15 @@ https://drive.google.com/file/d/1VkDCSyJj3wg_QwN9-wgIllHGzPwa-Zdv/view?usp=shari
 ## チャレンジ要素一覧
 https://docs.google.com/spreadsheets/d/1L6eELIQt4U_PnEGQ4obXX1WqQZ_EsQyNABy3gQeGE1M/edit?usp=sharing
 
+　## ER図
+ ここに
+ 
+## アプリケーション詳細設計
+ここに
+
+## ルート設計
+ここに
+
 ## 開発環境
 - OS：Linux(CentOS)
 - 言語：HTML,CSS,JavaScript,Ruby,SQL
