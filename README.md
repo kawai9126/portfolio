@@ -33,7 +33,7 @@ https://drive.google.com/file/d/1VkDCSyJj3wg_QwN9-wgIllHGzPwa-Zdv/view?usp=shari
 https://docs.google.com/spreadsheets/d/1L6eELIQt4U_PnEGQ4obXX1WqQZ_EsQyNABy3gQeGE1M/edit?usp=sharing
 
 　## ER図
- ここに
+ https://drive.google.com/file/d/1dtdfK8nCqLAi606DYd7Nk0QXVcHVrz7G/view?usp=sharing
  
 ## アプリケーション詳細設計
 ここに

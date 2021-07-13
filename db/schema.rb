@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_12_191818) do
+ActiveRecord::Schema.define(version: 2021_07_13_122657) do
+
+  create_table "cart_items", force: :cascade do |t|
+    t.integer "end_user_id", null: false
+    t.integer "item_id"
+    t.integer "number"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "genres", force: :cascade do |t|
     t.string "name"
@@ -27,6 +35,35 @@ ActiveRecord::Schema.define(version: 2021_07_12_191818) do
     t.integer "non_price", null: false
     t.string "image_id", null: false
     t.boolean "is_sale", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "order_items", force: :cascade do |t|
+    t.integer "item_id", null: false
+    t.integer "order_id", null: false
+    t.integer "number", null: false
+    t.integer "tax_included_price", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "orders", force: :cascade do |t|
+    t.integer "end_user_id", null: false
+    t.string "direction", null: false
+    t.integer "payment_method", default: 0, null: false
+    t.text "delivery_address", null: false
+    t.string "mail_number", null: false
+    t.integer "invoice", default: 0, null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "shipping_addresses", force: :cascade do |t|
+    t.string "end_user_id", null: false
+    t.string "direction", null: false
+    t.text "delivery_address", null: false
+    t.integer "mail_number", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
